@@ -79,3 +79,28 @@ footer {
     background-color: #2e3a47;
     color: white;
 }
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+section#navigation {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+section#navigation .btn {
+    background-color: #2e3a47;
+    color: white;
+    padding: 0.7rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 0.5rem;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+section#navigation .btn:hover {
+    background-color: #1f2b36;
+}
